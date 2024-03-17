@@ -1,7 +1,5 @@
 export enum COLOR_CODE {
-  // PRIMARY = '#F79432',
   PRIMARY = '#4E8EE1',
-  // PRIMARY = '#2A4BA0',
 }
 
 export enum BACKGROUND_COLOR {
@@ -12,6 +10,7 @@ export enum BACKGROUND_COLOR {
   PRIMARY_DARK = '#153075',
   GRAY = '#EBEBFB',
   GRAY_2 = '#DCE1E7',
+  GRAY_3 = '#CAD0D6',
 }
 
 export enum TEXT_COLOR {
@@ -29,4 +28,10 @@ export enum AIRLINES {
   INDIGO = 'IndiGo',
   SPICE_JET = 'SpiceJet',
   VISTARA = 'Vistara',
+}
+
+export enum PRICE_SORTING {
+  ASCENDING = 'Ascending',
+  DESCENDING = 'Descending',
+  NORMAL = 'Normal',
 }

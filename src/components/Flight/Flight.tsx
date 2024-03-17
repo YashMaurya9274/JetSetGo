@@ -1,10 +1,12 @@
-import {Image, View} from 'react-native';
+import {Image, TouchableOpacity, View} from 'react-native';
 import React from 'react';
 import styles from './Flight.styles';
 import CustomText from '@components/CustomText/CustomText';
 import {TEXT_COLOR} from 'src/types/enums';
 import {getAirlineImage} from 'src/lib/airlineImage.helper';
 import Imagelinks from '@assets/Imagelinks';
+import {FlightType} from 'src/types/typings';
+import STRINGS from 'src/types/strings';
 
 type Props = {
   flight: FlightType;
@@ -68,21 +70,27 @@ const Flight = ({flight}: Props) => {
 
       <View style={styles.flightMiddle}>
         <View style={styles.flightMiddleInfo}>
-          <FlightDetail name="Flight Number :" value={flightNumber} />
+          <FlightDetail
+            name={`${STRINGS.FLIGHT_NUMBER} :`}
+            value={flightNumber}
+          />
           <Separator />
-          <FlightDetail name="Gate :" value={gate} />
+          <FlightDetail name={`${STRINGS.GATE} :`} value={gate} />
           <Separator />
-          <FlightDetail name="Seats Available :" value={seatsAvailable} />
+          <FlightDetail
+            name={`${STRINGS.SEATS_AVAILABLE} :`}
+            value={seatsAvailable}
+          />
         </View>
 
         <View style={styles.flightMiddleInfo}>
           <FlightDetail
-            name="Arrival Time :"
+            name={`${STRINGS.ARRIVAL_TIME} :`}
             value={new Date(arrivalTime).toLocaleDateString()}
           />
           <Separator />
           <FlightDetail
-            name="Departure Time :"
+            name={`${STRINGS.DEPARTURE_TIME} :`}
             value={new Date(departureTime).toLocaleDateString()}
           />
         </View>
@@ -104,6 +112,10 @@ const Flight = ({flight}: Props) => {
         </View>
         <CustomText text={destination} fontSize={15} fontWeight="600" />
       </View>
+
+      <TouchableOpacity style={styles.button} activeOpacity={0.5}>
+        <CustomText text={STRINGS.BOOK_NOW} color={TEXT_COLOR.WHITE} />
+      </TouchableOpacity>
     </View>
   );
 };

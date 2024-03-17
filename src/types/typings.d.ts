@@ -1,3 +1,5 @@
+import {PRICE_SORTING} from './enums';
+
 interface FlightType {
   id: number;
   gate: string;
@@ -11,4 +13,9 @@ interface FlightType {
   flightNumber: string;
   departureTime: string;
   seatsAvailable: number;
+}
+
+interface PriceSortingSteps {
+  id: number;
+  step: PRICE_SORTING;
 }

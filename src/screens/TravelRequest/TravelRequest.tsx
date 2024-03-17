@@ -8,10 +8,12 @@ import CustomText from '@components/CustomText/CustomText';
 import {getFlights} from 'src/lib/flights.helper';
 import FlightsForYou from '@components/FlightsForYou/FlightsForYou';
 import styles from './TravelRequest.styles';
+import {FlightType} from 'src/types/typings';
+import STRINGS from 'src/types/strings';
 
 const TravelRequest = () => {
   const [flights, setFlights] = useState<FlightType[]>([]);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState<boolean>(false);
 
   const fetchFlights = async () => {
     setLoading(true);
@@ -35,17 +37,16 @@ const TravelRequest = () => {
         style={styles.travelRequestContainer}
         contentContainerStyle={styles.travelRequestContentContainer}>
         <View style={styles.travelRequestTopContainer}>
-          {/* Logo and Name */}
           <View style={styles.topHeader}>
             <View>
               <CustomText
-                text="JetSetGo"
+                text={STRINGS.JET_SET_GO}
                 fontSize={22}
                 fontWeight="600"
                 color={TEXT_COLOR.WHITE}
               />
               <CustomText
-                text="Let&#39;s elevate travel together!"
+                text={STRINGS.TAGLINE}
                 color={TEXT_COLOR.WHITE}
                 fontSize={12}
               />

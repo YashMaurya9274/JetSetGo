@@ -7,6 +7,10 @@ const Imagelinks = {
   spiceJet: require('./images/spiceJet.png'),
   vistara: require('./images/vistara.png'),
   rightBigArrow: require('./images/rightBigArrow.png'),
+  arrowUp: require('./icons/arrowUp.png'),
+  arrowDown: require('./icons/arrowDown.png'),
+  search: require('./icons/search.png'),
+  cross: require('./icons/cross.png'),
 };
 
 export default Imagelinks;

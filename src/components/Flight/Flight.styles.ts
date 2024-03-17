@@ -61,7 +61,16 @@ const styles = StyleSheet.create({
   separator: {
     height: 15,
     width: 1,
-    backgroundColor: BACKGROUND_COLOR.GRAY_2,
+    backgroundColor: BACKGROUND_COLOR.GRAY_3,
+  },
+  button: {
+    backgroundColor: BACKGROUND_COLOR.PRIMARY_DARK,
+    paddingHorizontal: 40,
+    paddingVertical: 6,
+    borderRadius: 10,
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    marginTop: 10,
   },
 });
 

@@ -8,6 +8,19 @@ const styles = StyleSheet.create({
     marginTop: 15,
     gap: 15,
   },
+  searchSortContainer: {
+    marginVertical: 20,
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+  },
+  emptyListContainer: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 200,
+  },
 });
 
 export default styles;
