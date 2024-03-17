@@ -9,9 +9,9 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 ## IOS
 
-![Simulator Screenshot - iPhone 14 Pro - 2024-03-17 at 20 31 59](https://github.com/YashMaurya9274/JetSetGo/assets/68786174/00fabeb0-e3ff-4b61-895c-60a733f4a8f3)
-![Simulator Screenshot - iPhone 14 Pro - 2024-03-17 at 20 32 18](https://github.com/YashMaurya9274/JetSetGo/assets/68786174/98195a4e-1bc0-46ee-96f2-86cc874d053b)
-![Simulator Screenshot - iPhone 14 Pro - 2024-03-17 at 20 32 39](https://github.com/YashMaurya9274/JetSetGo/assets/68786174/0b6782ae-6763-444f-99a4-8fae60e7eff8)
+<img width="375" alt="Screenshot 2024-03-17 at 8 38 23 PM" src="https://github.com/YashMaurya9274/JetSetGo/assets/68786174/588f302d-f3c4-452d-a571-363274d664fd">
+<img width="375" alt="Screenshot 2024-03-17 at 8 38 31 PM" src="https://github.com/YashMaurya9274/JetSetGo/assets/68786174/e290941c-e923-4f5a-a69f-a50b17865eb9">
+<img width="375" alt="Screenshot 2024-03-17 at 8 38 46 PM" src="https://github.com/YashMaurya9274/JetSetGo/assets/68786174/c8caeb7d-615d-4a8a-a05b-ee80d97b3228">
 
 
 
