@@ -5,6 +5,8 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 <img width="375" alt="Screenshot 2024-03-17 at 8 30 43 PM" src="https://github.com/YashMaurya9274/JetSetGo/assets/68786174/b9433ee3-c8fa-4bfe-ae73-f56d15390d28">
 <img width="375" alt="Screenshot 2024-03-17 at 8 30 59 PM" src="https://github.com/YashMaurya9274/JetSetGo/assets/68786174/cefc1ab4-c7fb-415b-bfc6-a8973bf70d74">
 <img width="375" alt="Screenshot 2024-03-17 at 8 31 33 PM" src="https://github.com/YashMaurya9274/JetSetGo/assets/68786174/91c444e5-2186-416b-8482-949e859f9062">
+<img width="372" alt="Screenshot 2024-03-17 at 8 41 19 PM" src="https://github.com/YashMaurya9274/JetSetGo/assets/68786174/1f3b332f-203b-4d54-bcc2-db3f575fc468">
+
 
 
 ## IOS
@@ -12,6 +14,7 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 <img width="375" alt="Screenshot 2024-03-17 at 8 38 23 PM" src="https://github.com/YashMaurya9274/JetSetGo/assets/68786174/588f302d-f3c4-452d-a571-363274d664fd">
 <img width="375" alt="Screenshot 2024-03-17 at 8 38 31 PM" src="https://github.com/YashMaurya9274/JetSetGo/assets/68786174/e290941c-e923-4f5a-a69f-a50b17865eb9">
 <img width="375" alt="Screenshot 2024-03-17 at 8 38 46 PM" src="https://github.com/YashMaurya9274/JetSetGo/assets/68786174/c8caeb7d-615d-4a8a-a05b-ee80d97b3228">
+<img width="375" alt="Screenshot 2024-03-17 at 8 40 14 PM" src="https://github.com/YashMaurya9274/JetSetGo/assets/68786174/76b40ff2-dfa9-4c7a-a5f4-4671d80d7048">
 
 
 
