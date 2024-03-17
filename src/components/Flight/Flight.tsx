@@ -97,7 +97,12 @@ const Flight = ({flight}: Props) => {
       </View>
 
       <View style={styles.flightBottom}>
-        <CustomText text={origin} fontSize={15} fontWeight="600" />
+        <CustomText
+          text={origin}
+          fontSize={15}
+          fontWeight="600"
+          style={styles.location}
+        />
         <View style={styles.flightMiddleDurationContainer}>
           <CustomText
             text={duration}
@@ -110,7 +115,12 @@ const Flight = ({flight}: Props) => {
             style={styles.rightArrowImage}
           />
         </View>
-        <CustomText text={destination} fontSize={15} fontWeight="600" />
+        <CustomText
+          text={destination}
+          fontSize={15}
+          fontWeight="600"
+          style={styles.location}
+        />
       </View>
 
       <TouchableOpacity style={styles.button} activeOpacity={0.5}>

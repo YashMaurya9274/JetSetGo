@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native';
+import {Platform, StyleSheet} from 'react-native';
 import {BACKGROUND_COLOR, TEXT_COLOR} from 'src/types/enums';
 
 const styles = StyleSheet.create({
@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
   searchInput: {
-    padding: 0,
+    padding: Platform.OS === 'ios' ? 5 : 0,
     flex: 1,
   },
   searchImage: {

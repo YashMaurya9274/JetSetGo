@@ -19,7 +19,7 @@ const Searchbar = ({onChangeSearchText, value}: Props) => {
   return (
     <View style={styles.searchContainer}>
       <TextInput
-        placeholder={STRINGS.SEARCH_BY_AIRLINE}
+        placeholder={STRINGS.SEARCH_BY_AIRLINES}
         value={value}
         onChangeText={text => onChangeSearchText(text)}
         style={styles.searchInput}

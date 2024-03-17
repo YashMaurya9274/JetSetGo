@@ -3,7 +3,7 @@ const STRINGS = {
   TAGLINE: "Let's elevate travel together!",
   NO_SEARCH_RESULTS: 'No search results found...',
   FLIGHTS_FOR_YOU: 'Flights for you',
-  SEARCH_BY_AIRLINE: 'Search by Airline...',
+  SEARCH_BY_AIRLINES: 'Search by Airlines...',
   FLIGHT_NUMBER: 'Flight Number',
   GATE: 'Gate',
   SEATS_AVAILABLE: 'Seats Available',

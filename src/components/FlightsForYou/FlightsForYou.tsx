@@ -29,6 +29,9 @@ const FlightsForYou = ({flights}: Props) => {
   const [searchText, setSearchText] = useState('');
   const [flightsData, setFlightsData] = useState<FlightType[]>([]);
   const [sortType, setSortType] = useState<PRICE_SORTING>(PRICE_SORTING.NORMAL);
+  const [unsortedSearchedFlights, setUnsortedSearchedFlights] = useState<
+    FlightType[]
+  >([]);
 
   const fetchSearchResults = useCallback(() => {
     const searchedFlights = flights.filter(flight =>
@@ -36,9 +39,10 @@ const FlightsForYou = ({flights}: Props) => {
     );
 
     setFlightsData(searchedFlights);
+    setUnsortedSearchedFlights(searchedFlights);
   }, [flights, searchText]);
 
-  const debouncedSearch = debounce(fetchSearchResults, 300);
+  const debouncedSearch = debounce(fetchSearchResults, 500);
 
   useEffect(() => {
     debouncedSearch(searchText);
@@ -55,7 +59,11 @@ const FlightsForYou = ({flights}: Props) => {
       tempFlights.sort((flightA, flightB) => flightB.price - flightA.price);
       setFlightsData(tempFlights);
     } else if (sortType === PRICE_SORTING.NORMAL) {
-      setFlightsData(flights);
+      if (searchText) {
+        setFlightsData(unsortedSearchedFlights);
+      } else {
+        setFlightsData(flights);
+      }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [flights, sortType]);
