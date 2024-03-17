@@ -1,5 +1,20 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+## Android
+
+<img width="375" alt="Screenshot 2024-03-17 at 8 30 43 PM" src="https://github.com/YashMaurya9274/JetSetGo/assets/68786174/b9433ee3-c8fa-4bfe-ae73-f56d15390d28">
+<img width="375" alt="Screenshot 2024-03-17 at 8 30 59 PM" src="https://github.com/YashMaurya9274/JetSetGo/assets/68786174/cefc1ab4-c7fb-415b-bfc6-a8973bf70d74">
+<img width="375" alt="Screenshot 2024-03-17 at 8 31 33 PM" src="https://github.com/YashMaurya9274/JetSetGo/assets/68786174/91c444e5-2186-416b-8482-949e859f9062">
+
+
+## IOS
+
+![Simulator Screenshot - iPhone 14 Pro - 2024-03-17 at 20 31 59](https://github.com/YashMaurya9274/JetSetGo/assets/68786174/00fabeb0-e3ff-4b61-895c-60a733f4a8f3)
+![Simulator Screenshot - iPhone 14 Pro - 2024-03-17 at 20 32 18](https://github.com/YashMaurya9274/JetSetGo/assets/68786174/98195a4e-1bc0-46ee-96f2-86cc874d053b)
+![Simulator Screenshot - iPhone 14 Pro - 2024-03-17 at 20 32 39](https://github.com/YashMaurya9274/JetSetGo/assets/68786174/0b6782ae-6763-444f-99a4-8fae60e7eff8)
+
+
+
 # Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
